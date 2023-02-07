@@ -1,0 +1,259 @@
+@media (max-width: 1140px) {
+    .quiz__bg {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .quiz__radio {
+        gap: 30px;
+    }
+
+    .quiz__radio__item {
+        width: 140px;
+    }
+
+    .quiz__prompt {
+        display: none;
+    }
+
+    .quiz__checkbox {
+        width: 100%;
+    }
+
+    .quiz__file {
+        width: 100%;
+    }
+
+    .quiz__file__desc {
+        padding: 0;
+    }
+    
+    .quiz__fieldset img {
+        display: none;
+    }
+}
+
+@media (max-width: 870px) {
+    .quiz__success {
+        text-align: center;
+    }
+    
+    .quiz__sidebar {
+        display: none;
+    }
+
+    .quiz__content {
+        width: 100%;
+        padding: 0 0 92px 0;
+    }
+
+    .quiz__step_8 .quiz__content {
+        padding: 0;
+    }
+
+    .quiz__container {
+        padding: 0;
+    }
+
+    .quiz__step {
+        padding: 23px 10px;
+    }
+
+    .quiz__button {
+        width: 150px;
+    }
+
+    .quiz__radio {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .quiz__radio__item {
+        width: calc((100% - 20px) / 2);
+    }
+
+    .quiz__bottom {
+        flex-direction: column;
+        gap: 16px;
+        height: auto;
+    }
+
+    .quiz__title {
+        font-size: 18px;
+    }
+
+    .quiz__progress div {
+        font-size: 12px;
+    }
+
+    .quiz__progress {
+        height: 20px;
+    }
+
+    .quiz__help {
+        font-size: 12px;
+        margin: 0 0 20px 0;
+        padding: 0;
+    }
+
+    .quiz__radio__name {
+        font-size: 12px;
+    }
+
+    .quiz__fieldset img {
+        display: block;
+    }
+
+    .quiz__fieldset {
+        flex-direction: column;
+    }
+
+    .quiz__field.quiz__field_area label {
+        text-align: center;
+    }
+
+    .quiz__help img {
+        display: none;
+    }
+
+    .quiz__step.quiz__step_3 .quiz__radio {
+        gap: 20px;
+    }
+
+    .quiz__progress {
+        margin: 0 0 20px 0;
+    }
+
+    .quiz__step_8 .quiz__sidebar {
+        display: none;
+    }
+
+    .quiz__step.quiz__step_8 .quiz__title {
+        text-align: center;
+    }
+
+    .quiz__step.quiz__step_8 .quiz__help span {
+        text-align: center;
+    }
+
+    .quiz__step.quiz__step_8 .quiz__help {
+        justify-content: center;
+    }
+
+    .quiz__subtitle {
+        text-align: center;
+    }
+
+    .quiz__finish {
+        margin: 0 auto;
+    }
+
+    .quiz__policy {
+        margin: 25px 0 0 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .quiz__gift {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        width: 200px;
+        margin: 30px auto 0 auto;
+        background: url('/images/quiz-new/sidebar-last.png') no-repeat;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .quiz__gift__title {
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 120%;
+        text-align: center;
+        color: white;
+    }
+
+    .quiz__gift__image {
+        width: 118px;
+    }
+
+    .quiz__gift__name {
+        color: white;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 120%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .quiz__nav {
+        gap: 10px;
+    }
+
+    .quiz__subtitle br {
+        display: none;
+    }
+
+    .quiz__checkbox {
+        gap: 10px;
+    }
+
+    .quiz__checkbox__item {
+        width: 100%;
+    }
+
+    .quiz__file {
+        gap: 20px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .quiz__file__desc {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .quiz__file__input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 360px) {
+    .quiz__step.quiz__step_8 {
+        background: url('/images/quiz-new/mobile-last.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .quiz__gift {
+        background: none;
+        border-radius: none;
+        padding: 0;
+    }
+
+    .quiz__step.quiz__step_8 .quiz__title {
+        color: white;
+    }
+
+    .quiz__step.quiz__step_8 .quiz__help {
+        color: white;
+    }
+
+    .quiz__step.quiz__step_8 .quiz__subtitle {
+        color: white;
+    }
+
+    .quiz__policy label {
+        color: white;
+    }
+
+    .quiz__policy label br {
+        display: none;
+    }
+}

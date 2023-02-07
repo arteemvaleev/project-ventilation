@@ -1,0 +1,134 @@
+html{box-sizing:border-box}*,::after,::before{box-sizing:inherit}ol[class],ul[class]{padding:0}blockquote,body,dd,dl,figcaption,figure,h1,h2,h3,h4,h5,h6,li,ol,p,ul{margin:0}ul[class]{list-style:none}img{max-width:100%;display:block}button,input,select,textarea{font:inherit}a{text-decoration:none}body,html{height:100%;font-family:Roboto,sans-serif;font-weight:400;font-size:18px;color:#1d1d1d;scroll-behavior: smooth;}a{color:inherit;display:inherit}.wrapper{display:flex;flex-direction:column;min-height:100%}.wrapper .main{flex:1 0 auto}.footer{flex:0 0 auto}.container{max-width:1170px;margin:0 auto;padding:0 15px}.header__inner{padding-top:40px;display:flex;position:absolute;top:0}.contact-messenger{
+   position: fixed;
+   background-color: #1D1D1D;
+   display: none;
+}.header__logo{display:flex;align-items:center}.header__logo-img{margin-right:20px}.header__logo-text{font-size:14px;max-width:250px}.header__logo-text span{font-weight:700}.question-header{display:flex;align-items:center}.question-header__img{margin-left:165px}.question-header__ask{font-size:14px;max-width:130px;margin-left:15px}.question-header__ask span{font-weight:700}.question-header__text{font-size:14px;max-width:120px;margin-left:40px}.question-header__messanger{display:flex}.question-header__whatsapp{margin-left:10px}.question-header__telegram{margin-left:10px}.question-header__line{margin-left:40px}.question-header__time{font-size:14px}.question-header__number{font-size:18px;font-weight:700}.home{padding-top:180px;background-size:auto;background-position:top;background-repeat:no-repeat;background-image: url('../images/home-bg.png');}.home__title{font-size:48px;line-height:59px;max-width:950px;margin-bottom:30px}.home__title span{font-weight:700;color:#32637a}.home__line{display:flex;align-items:center}.home__text{font-weight:700;font-size:28px;line-height:35px;color:#6c6c6c;padding:22px 32px;border:1px solid #6c6c6c;border-radius:10px}.home__btn{position:relative;font-weight:700;font-size:18px;line-height:22px;background:linear-gradient(67.92deg,#32637a 35.57%,rgba(50,99,122,0) 274.26%);border-radius:10px;padding:19px 28px 19px 59px;color:#fff;margin-left:24px}.no-webp .home__btn::after{background:url(../images/home/icon.png) 0 0 no-repeat}.home__btn::after{content:"";position:absolute;top:50%;left:25px;transform:translateY(-50%);width:25px;height:25px}.info-home{margin-top:30px}.info-home__items{display:flex;align-items:center}.info-home__item{display:flex;align-items:center;font-size:16px;margin-right:40px;margin-bottom:50px}.info-home__img{margin-right:20px}.info-home__text{font-size:16px}.info-home__text span{font-weight:700}.info-home__button{display:inline-block;align-items:center;padding:44px 55px;background:linear-gradient(81.79deg,#f86909 32.31%,#fc8a0e 78.39%);border-radius:300px;margin-bottom:270px}.info-home__box{display:flex;align-items:center}.info-home__btn{font-size:18px;line-height:22px;letter-spacing:.1em;font-weight:700;color:#fff;padding:0 15px}.answer{position:relative}.no-webp .answer__inner{background:url(../images/bg.png) 0 0/cover no-repeat}.answer__inner{position:absolute;top:-150px;left:0;width:100%}.answer__title{text-align:center;font-size:44px;line-height:54px;margin-bottom:60px;margin-top:150px}.answer__title span{font-weight:700;color:#32637a}.present-answer{background:#f5f5f5;border-radius:30px}.present-answer__items{display:flex;padding:15px 30px}.present-answer__item{width:180px;min-height:100px;margin:0 30px}.present-answer__title{max-width:320px;font-size:24px;line-height:120%;margin:25px 30px 0 0}.present-answer__title span{font-weight:700;color:#f96a0a}.present-answer__img{border-radius:15px;margin-bottom:10px}.present-answer__text{text-align:center;font-size:14px;line-height:120%}@media (min-width:1920px){.home{background-size:cover}}@media (max-width:1200px){.question-header__img{margin-left:25px}.question-header__line{margin-left:20px}.question-header__text{margin-left:20px}.present-answer__item{margin:0 12px}.present-answer__title{margin:25px 0 0 0}}@media (max-width:1000px){.question-header__text{display:none}.home{padding-top:200px}.home__title{font-size:40px;line-height:44px;max-width:800px;margin-bottom:30px}.answer__title{font-size:40px;line-height:44px}.home__text{font-size:22px;line-height:18px;padding:20px}.present-answer__items{flex-wrap:wrap;justify-content:space-around}.present-answer__item{margin:15px 15px}}@media (max-width:870px){.question-header__text{display:none}.question-header__img{display:none}.home__title{font-size:36px;line-height:44px;max-width:700px;text-align:center;margin:0 auto 30px auto}.answer__title{font-size:36px;line-height:44px;margin-top:100px}.home__line{flex-direction:column;align-items:end}.home__text{margin-bottom:15px}.home__btn{margin-left:0}}@media (max-width:780px){.header__inner{display:block}.header__logo{margin-bottom:25px}.home{background-size:cover}.home__text{color:#fff;background-color:rgba(247,100,1,.7019607843)}.answer__inner{top:-250px}}@media (max-width:650px){.info-home__items{flex-direction:column;align-items:start}.info-home__button{padding:30px}.info-home__btn{font-size:14px;line-height:22px;padding:0 10px}.answer__title{margin-bottom:20px}}@media (max-width:600px){.answer__title,.home__title{font-size:29px;line-height:36px}.home__text{font-size:18px}.present-answer__title{text-align:center}}@media (max-width:500px){.home__text{line-height:28px;padding:10px;text-align:end}}@media (max-width:480px){.answer__title,.home__title{font-size:25px;line-height:28px}}
+@media (max-width: 450px) {
+   .header__logo {
+      margin-bottom: 15px;
+  }
+   .header__inner {
+    left: 0;
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .header__logo {
+    margin-left: 15px;
+  }
+
+  .question-header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+
+  .question-header__ask {
+    margin-bottom: 10px;
+  }
+
+  .question-header__messanger {
+    margin-bottom: 10px;
+  }
+
+  .home {
+    padding-top: 150px;
+    background-image: none;
+  }
+
+  .home__title,
+  .answer__title {
+    font-size: 22px;
+    line-height: 24px;
+    margin: 0 auto 15px auto;
+  }
+  .answer__title {
+   margin: 50px auto 15px auto;
+ }
+
+  .present-answer__title {
+    font-size: 19px;
+  }
+
+  .present-answer__items {
+    padding: 10px;
+  }
+  .home__line {
+   flex-direction: column;
+   align-items: center;
+  }
+  .home__text{
+   text-align: center;
+   font-size: 16px;
+   padding: 5px;
+  }
+  .home__btn{
+   padding: 10px 20px 10px 50px;
+  }
+  .info-home{
+   text-align: center;
+   margin-top: 15px;
+  }
+  .info-home__items{
+   flex-direction: row;
+  }
+  .info-home__item{
+   flex-direction: column;
+   margin-bottom: 15px;
+  }
+  .info-home__text{
+   background-color: rgba(255, 255, 255, 0.25);
+   border-radius: 10px 20px;
+  }
+  .info-home__img{
+   margin-bottom: 10px;
+  }
+  .question-header{
+   display: none;
+  }
+  .contact-messenger{
+   display: flex;
+   height: 55px;
+   bottom: 0;
+   left: 0;
+   /*background-color: #FC8A0E;*/
+   z-index: 5;
+   width: 100%;
+  }
+  .contact-messenger__items{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 100%;
+  }
+  .contact-messenger__item{
+   height: 100%;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+  .contact-messenger__item:first-child{
+   background-color: #43ce36;
+  }
+  .contact-messenger__item:last-child{
+   background-color: #eeff00;
+  }
+  .contact-messenger__img{
+   height: 35px;
+   width: 35px;
+   margin-right: 10px;
+  }
+  .contact-messenger__img-whatsapp{
+   border: 1px solid #fff;
+   border-radius: 50%;
+  }
+  .quiz{
+   margin-top: 0;
+  }
+  .quiz__inner{
+   height: 97%;
+  }
+}
+@media (max-width:400px){.info-home__button{padding:25px 11px}.info-home__btn{font-size:12px;line-height:22px;padding:0 5px}}@media (max-width:380px){.answer__title,.home__title{font-size:18px;line-height:22px}.home__btn{font-size:16px}.info-home__item{margin-right:0;margin-bottom:20px}}.webp .home__btn::after{background:url(../images/home/icon.webp) 0 0 no-repeat}.webp .answer__inner{background:url(../images/bg.webp) 0 0/cover no-repeat}

@@ -1,0 +1,546 @@
+<!-- https://www.figma.com/file/cqCF5YeaQzpo4Ihz5Y5POR/Untitled-(Copy)?node-id=14%3A285&t=RAuwAdRNPt1xIRpc-0 -->
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css?_v=20230123184138">
+   <link rel='stylesheet' href='css/jquery.ui.css' media='all' />
+   <link rel="stylesheet" href="css/quiz-style.css?v=1.0.2">
+   <link rel="stylesheet" href="css/quiz-adaptive.css?v=1.0.2">
+   <title>ventilation</title>
+</head>
+
+<body>
+   <div class="messenger__contact contact-messenger">
+      <div class="contact-messenger__items">
+         <a class="contact-messenger__item" href="#"> <img
+               class="contact-messenger__img contact-messenger__img-whatsapp" src="images/home/whatsapp.svg">
+            <p class="contact-messenger__text">Получите КП
+               <br> на WhatsApp
+            </p>
+         </a>
+         <a class="contact-messenger__item" href="#"> <img class="contact-messenger__img" src="images/home/phone.png">
+            <p class="contact-messenger__text">Позвонить</p>
+         </a>
+      </div>
+   </div>
+   <header class="header">
+      <div class="container">
+         <div class="header__inner">
+            <a class="header__logo" href="#">
+               <picture>
+                  <source srcset="images/header/logo.webp" type="image/webp"><img class="header__logo-img"
+                     src="images/header/logo.png" alt="logo">
+               </picture>
+               <p class="header__logo-text"><span>Приточная вентиляция,
+                     кондиционирование,
+                     увлажнение</span> в дом, квартиру или офис в Санкт-Петербурге и ЛО</p>
+            </a>
+            <div class="header__question question-header">
+               <picture>
+                  <source srcset="images/header/avatar.webp" type="image/webp"><img class="question-header__img"
+                     src="images/header/avatar.png" alt="image">
+               </picture>
+               <div class="question-header__ask"><span>Есть вопрос?</span> Задайте напрямую</div>
+               <div class="question-header__text">Быстрая связь
+                  <br> в мессенджерах:
+               </div>
+               <div class="question-header__messanger">
+                  <a class="question-header__whatsapp" href="#"> <img class="question-header__whatsapp-img"
+                        src="images/header/whatsapp.svg" alt="icon"> </a>
+                  <a class="question-header__telegram" href="#"> <img class="question-header__telegram-img"
+                        src="images/header/telegram.svg" alt="icon"> </a>
+               </div>
+               <div class="question-header__line">
+                  <div class="question-header__time">Пн-Пт с 9:00 до 18:00</div> <a class="question-header__number"
+                     href="tel:79876543210">+7 (987) 654-32-10</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <main>
+      <div class="wrapper">
+         <section class="home">
+            <div class="container">
+               <h1 class="home__title"><span>Спроектируем и смонтируем</span>
+                  приточную вентиляцию
+                  с кондиционированием и увлажнением</h1>
+               <div class="home__line">
+                  <p class="home__text">В квартиру, частный дом, офис, магазин</p> <a class="home__btn" href="#">С
+                     гарантией под ключ</a>
+               </div>
+               <div class="home__info info-home">
+                  <div class="info-home__items">
+                     <div class="info-home__item">
+                        <picture>
+                           <source srcset="images/home/image-1.webp" type="image/webp"><img class="info-home__img"
+                              src="images/home/image-1.png" alt="image">
+                        </picture>
+                        <p class="info-home__text"><span>Акция в январе:</span>
+                           <br> при подписании договора
+                           <br> проект вентиляции
+                           <br> и кондиционирования в подарок
+                        </p>
+                     </div>
+                     <div class="info-home__item">
+                        <picture>
+                           <source srcset="images/home/image-2.webp" type="image/webp"><img class="info-home__img"
+                              src="images/home/image-2.png" alt="image">
+                        </picture>
+                        <p class="info-home__text"><span>Гарантия</span>
+                           <br> на монтажные
+                           <br> работы <span>— 3 года</span>
+                        </p>
+                     </div>
+                  </div>
+                  <a class="info-home__button" href="#quiz">
+                     <div class="info-home__box">
+                        <picture>
+                           <source srcset="images/home/arrow-right.webp" type="image/webp"><img class="info-home__arrow"
+                              src="images/home/arrow-right.png" alt="arrow">
+                        </picture>
+                        <p class="info-home__btn">РАССЧИТАТЬ СТОИМОСТЬ</p>
+                        <picture>
+                           <source srcset="images/home/arrow-left.webp" type="image/webp"><img class="info-home__arrow"
+                              src="images/home/arrow-left.png" alt="arrow">
+                        </picture>
+                     </div>
+                  </a>
+               </div>
+            </div>
+            <!--<div class="clearfix"></div>-->
+         </section>
+         <section class="answer">
+            <div class="answer__inner">
+               <div class="container">
+                  <h1 class="answer__title"><span>Ответьте на 6 простых вопросов</span>
+                     и узнайте
+                     стоимость вентиляции и кондиционирования </h1>
+                  <div class="answer__present present-answer">
+                     <div class="present-answer__items">
+                        <p class="present-answer__title">В конце теста <span>вы получите</span> один из трех подарков:
+                        </p>
+                        <div class="present-answer__item">
+                           <picture>
+                              <source srcset="images/answer/image-1.webp" type="image/webp"><img
+                                 class="present-answer__img" src="images/answer/image-1.png" alt="image">
+                           </picture>
+                           <p class="present-answer__text">Проект вентиляции и кондиционирования</p>
+                        </div>
+                        <div class="present-answer__item">
+                           <picture>
+                              <source srcset="images/answer/image-2.webp" type="image/webp"><img
+                                 class="present-answer__img" src="images/answer/image-2.png" alt="image">
+                           </picture>
+                           <p class="present-answer__text">Комплект фильтров</p>
+                        </div>
+                        <div class="present-answer__item">
+                           <picture>
+                              <source srcset="images/answer/image-3.webp" type="image/webp"><img
+                                 class="present-answer__img" src="images/answer/image-3.png" alt="image">
+                           </picture>
+                           <p class="present-answer__text">Бесплатное техническое обслуживание</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!--<div class="clearfix"></div>-->
+         </section>
+         <section class="quiz" id="quiz">
+            <form id="quiz-form" class="container">
+               <div class="quiz__container">
+                  <div class="quiz__step quiz__step_1 active" data-step="1">
+                     <div class="quiz__sidebar"> <span>Здравствуйте, меня зовут Алексей. <b>Я помогу Вам рассчитать</b>
+                           необходимый бюджет для полной реализации проекта</span> </div>
+                     <div class="quiz__content">
+                        <div class="quiz__progress"> <span style="width: 16%;"></span>
+                           <div>Вопрос <b>1 из 6</b></div>
+                        </div>
+                        <h2 class="quiz__title quiz__title_center">Где необходимо установить вентиляцию или кондиционер?
+                        </h2>
+                        <h3 class="quiz__help quiz__help_center"><img src="/images/quiz-new/help.svg"><span>Выбор
+                              оборудования зависит от типа объекта.</span></h3>
+                        <div class="quiz__radio">
+                           <div class="quiz__radio__item">
+                              <div class="quiz__radio__image">
+                                 <img src="images/quiz-new/step1-1.png">
+                              </div>
+                              <div class="quiz__radio__name">Квартира</div>
+                           </div>
+                           <div class="quiz__radio__item">
+                              <div class="quiz__radio__image">
+                                 <img src="images/quiz-new/step1-2.png">
+                              </div>
+                              <div class="quiz__radio__name">Частный дом/Коттедж</div>
+                           </div>
+                           <div class="quiz__radio__item">
+                              <div class="quiz__radio__image">
+                                 <img src="images/quiz-new/step1-3.png">
+                              </div>
+                              <div class="quiz__radio__name">Офис, кафе, магазин</div>
+                           </div>
+                        </div>
+                        <div class="quiz__bottom">
+                           <div class="quiz__prompt">
+                              <img src="images/quiz-new/prompt.svg">
+                              <span>Выберите вариант ответа и нажмите кнопку далее</span>
+                           </div>
+                           <div class="quiz__nav">
+                              <button class="quiz__button quiz__button_next js-quiz-next-step js-set-place">
+                                 <span>Далее</span>
+                                 <img src="images/quiz-new/arrow.svg">
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="quiz__step quiz__step_2" data-step="2">
+                     <div class="quiz__sidebar"> <span>Здравствуйте, меня зовут Алексей. <b>Я помогу Вам рассчитать</b>
+                           необходимый бюджет для полной реализации проекта</span> </div>
+                     <div class="quiz__content">
+                        <div class="quiz__progress"> <span style="width: 32%;"></span>
+                           <div>Вопрос <b>2 из 6</b></div>
+                        </div>
+                        <h2 class="quiz__title quiz__title_center">Укажите площадь вашего помещения:</h2>
+                        <h3 class="quiz__help quiz__help_center"><img src="/images/quiz-new/help.svg"><span>Площадь
+                              помещения необходима для расчета мощности оборудования.</span></h3>
+                        <div class="quiz__fieldset">
+                           <img class="js-place-image" src="images/quiz-new/step2-1.png">
+                           <div class="quiz__fieldset__wrapper">
+                              <div class="quiz__field quiz__field_area">
+                                 <label>Площадь объекта:</label>
+                                 <div class="custom-range">
+                                    <div class="custom-range__input" data-min="50" data-max="250" data-value="150">
+                                    </div>
+                                    <div class="custom-range__min-max">
+                                       <div>50 м<sup>2</sup></div>
+                                       <div>250 м<sup>2</sup></div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="quiz__field quiz__field_room">
+                                 <label>Количество комнат:</label>
+                                 <div class="custom-iterator">
+                                    <button data-action="minus">-</button>
+                                    <input name="quiz_room" value="1" type="number">
+                                    <button data-action="plus">+</button>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="quiz__bottom">
+                           <div class="quiz__prompt">
+                              <img src="images/quiz-new/prompt.svg">
+                              <span>Выберите вариант ответа и нажмите кнопку далее</span>
+                           </div>
+                           <div class="quiz__nav">
+                              <button class="quiz__button quiz__button_prev js-quiz-prev-step">
+                                 <span>Назад</span>
+                                 <img src="images/quiz-new/arrow.svg">
+                              </button>
+                              <button class="quiz__button quiz__button_next js-quiz-next-step">
+                                 <span>Далее</span>
+                                 <img src="images/quiz-new/arrow.svg">
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="quiz__step quiz__step_3" data-step="3">
+                     <div class="quiz__sidebar">
+                        <span>Здравствуйте, меня зовут Алексей. <b>Я помогу Вам рассчитать</b> необходимый бюджет для
+                           полной реализации проекта</span>
+                     </div>
+                     <div class="quiz__content">
+                        <div class="quiz__progress">
+                           <span style="width: 50%;"></span>
+                           <div>Вопрос <b>3 из 6</b></div>
+                        </div>
+                        <h2 class="quiz__title quiz__title_center">Какой тип климатической системы необходим?</h2>
+                        <h3 class="quiz__help quiz__help_center"><img src="images/quiz-new/help.svg"><span>Если вы
+                              затрудняетесь с выбором, наши инженеры проведут Вам <b>БЕСПЛАТНУЮ</b> консультацию.</span>
+                        </h3>
+                        <div class="quiz__radio">
+                           <div class="quiz__radio__item">
+                              <div class="quiz__radio__image">
+                                 <img src="images/quiz-new/step3-1.png">
+                              </div>
+                              <div class="quiz__radio__name">Вентиляция</div>
+                           </div>
+                           <div class="quiz__radio__item">
+                              <div class="quiz__radio__image">
+                                 <img src="images/quiz-new/step3-2.png">
+                              </div>
+                              <div class="quiz__radio__name">Вентиляция и кондиционеры</div>
+                           </div>
+                           <div class="quiz__radio__item">
+                              <div class="quiz__radio__image">
+                                 <img src="images/quiz-new/step3-3.png">
+                              </div>
+                              <div class="quiz__radio__name">Только кондиционеры</div>
+                           </div>
+                           <div class="quiz__radio__item">
+                              <div class="quiz__radio__image">
+                                 <img src="images/quiz-new/step3-4.png">
+                              </div>
+                              <div class="quiz__radio__name">Нужно обсудить</div>
+                           </div>
+                        </div>
+                        <div class="quiz__bottom">
+                           <div class="quiz__prompt">
+                              <img src="images/quiz-new/prompt.svg">
+                              <span>Выберите вариант ответа и нажмите кнопку далее</span>
+                           </div>
+                           <div class="quiz__nav">
+                              <button class="quiz__button quiz__button_prev js-quiz-prev-step">
+                                 <span>Назад</span>
+                                 <img src="images/quiz-new/arrow.svg">
+                              </button>
+                              <button class="quiz__button quiz__button_next js-quiz-next-step">
+                                 <span>Далее</span>
+                                 <img src="images/quiz-new/arrow.svg">
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="quiz__step quiz__step_4" data-step="4">
+                     <div class="quiz__sidebar">
+                        <span>Здравствуйте, меня зовут Алексей. <b>Я помогу Вам рассчитать</b> необходимый бюджет для
+                           полной реализации проекта</span>
+                     </div>
+                     <div class="quiz__content">
+                        <div class="quiz__progress"> <span style="width: 66%;"></span>
+                           <div>Вопрос <b>4 из 6</b></div>
+                        </div>
+                        <h2 class="quiz__title quiz__title_center">Выберите Ваш бюджет:</h2>
+                        <h3 class="quiz__help quiz__help_center"><img src="images/quiz-new/help.svg"><span>Мы подберем
+                              для Вас лучшее оборудование из этого ценового сегмента.</span></h3>
+                        <div class="quiz__checkbox">
+                           <div class="quiz__checkbox__item">Эконом</div>
+                           <div class="quiz__checkbox__item">Оптимальный</div>
+                           <div class="quiz__checkbox__item">Премиум</div>
+                           <div class="quiz__checkbox__item">Нужна консультация</div>
+                        </div>
+                        <div class="quiz__bottom">
+                           <div class="quiz__prompt">
+                              <img src="images/quiz-new/prompt.svg">
+                              <span>Выберите вариант ответа и нажмите кнопку далее</span>
+                           </div>
+                           <div class="quiz__nav">
+                              <button class="quiz__button quiz__button_prev js-quiz-prev-step">
+                                 <span>Назад</span>
+                                 <img src="images/quiz-new/arrow.svg">
+                              </button>
+                              <button class="quiz__button quiz__button_next js-quiz-next-step">
+                                 <span>Далее</span>
+                                 <img src="images/quiz-new/arrow.svg">
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="quiz__step quiz__step_5" data-step="5">
+                     <div class="quiz__sidebar"> <span>Здравствуйте, меня зовут Алексей. <b>Я помогу Вам рассчитать</b>
+                           необходимый бюджет для полной реализации проекта</span> </div>
+                     <div class="quiz__content">
+                        <div class="quiz__progress"> <span style="width: 84%;"></span>
+                           <div>Вопрос <b>5 из 6</b></div>
+                        </div>
+                        <h2 class="quiz__title quiz__title_center">Есть ли у Вас дизайн-проект или планировка?</h2>
+                        <h3 class="quiz__help quiz__help_center"><img src="images/quiz-new/help.svg"><span>Наличие
+                              проекта поможет нам быстрее подобрать для Вас лучшее решение.</span></h3>
+                        <div class="quiz__checkbox">
+                           <div class="quiz__checkbox__item">Да, есть планировка</div>
+                           <div class="quiz__checkbox__item">Проекта нет</div>
+                           <div class="quiz__checkbox__item">Проект не нужен</div>
+                           <div class="quiz__checkbox__item">Нужна консультация</div>
+                        </div>
+                        <div class="quiz__file">
+                           <div class="quiz__file__desc">
+                              <b>Прикрепите файл,</b> чтобы мы могли сделать максимально точный расчет!
+                           </div>
+                           <div class="quiz__file__input">
+                              <input name="quiz__file" type="file" id="quiz__file" class="field field__file">
+                              <label class="field__file-wrapper" for="quiz__file">
+                                 <div class="field__file-fake">Прикрепить файл</div>
+                                 <div class="field__file-button"><img src="images/quiz-new/file.svg"></div>
+                              </label>
+                           </div>
+                        </div>
+                        <div class="quiz__bottom">
+                           <div class="quiz__prompt">
+                              <img src="images/quiz-new/prompt.svg">
+                              <span>Выберите вариант ответа и нажмите кнопку далее</span>
+                           </div>
+                           <div class="quiz__nav">
+                              <button class="quiz__button quiz__button_prev js-quiz-prev-step">
+                                 <span>Назад</span>
+                                 <img src="images/quiz-new/arrow.svg">
+                              </button>
+                              <button class="quiz__button quiz__button_next js-quiz-next-step">
+                                 <span>Далее</span>
+                                 <img src="images/quiz-new/arrow.svg">
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="quiz__step quiz__step_6" data-step="6">
+                     <div class="quiz__sidebar"> <span>Здравствуйте, меня зовут Алексей. <b>Я помогу Вам рассчитать</b>
+                           необходимый бюджет для полной реализации проекта</span> </div>
+                     <div class="quiz__content">
+                        <div class="quiz__progress"> <span style="width: 100%;"></span>
+                           <div>Вопрос <b>6 из 6</b></div>
+                        </div>
+                        <h2 class="quiz__title quiz__title_center">Укажите срок выполнения работ:</h2>
+                        <h3 class="quiz__help quiz__help_center"></h3>
+                        <div class="quiz__checkbox">
+                           <div class="quiz__checkbox__item">В течение недели</div>
+                           <div class="quiz__checkbox__item">В течение месяца</div>
+                           <div class="quiz__checkbox__item">В течение 3-х месяцев</div>
+                           <div class="quiz__checkbox__item">Просто интересуюсь</div>
+                        </div>
+                        <div class="quiz__bottom">
+                           <div class="quiz__prompt">
+                              <img src="images/quiz-new/prompt.svg">
+                              <span>Выберите вариант ответа и нажмите кнопку далее</span>
+                           </div>
+                           <div class="quiz__nav">
+                              <button class="quiz__button quiz__button_prev js-quiz-prev-step">
+                                 <span>Назад</span>
+                                 <img src="images/quiz-new/arrow.svg">
+                              </button>
+                              <button class="quiz__button quiz__button_next js-quiz-next-step">
+                                 <span>Далее</span>
+                                 <img src="images/quiz-new/arrow.svg">
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="quiz__step quiz__step_7" data-step="7">
+                     <div class="quiz__sidebar"> <span>Здравствуйте, меня зовут Алексей. <b>Я помогу Вам рассчитать</b>
+                           необходимый бюджет для полной реализации проекта</span> </div>
+                     <div class="quiz__content">
+                        <div class="quiz__progress"> <span style="width: 100%;"></span>
+                           <div><b>Почти готово</b></div>
+                        </div>
+                        <h2 class="quiz__title quiz__title_center">Какой подарок вы бы хотели холучить?</h2>
+                        <h3 class="quiz__help quiz__help_center"></h3>
+                        <div class="quiz__radio">
+                           <div class="quiz__radio__item">
+                              <div class="quiz__radio__image">
+                                 <img src="images/quiz-new/step7-1.png">
+                              </div>
+                              <div class="quiz__radio__name">Проект вентиляции и кондиционирования</div>
+                           </div>
+                           <div class="quiz__radio__item">
+                              <div class="quiz__radio__image">
+                                 <img src="images/quiz-new/step7-2.png">
+                              </div>
+                              <div class="quiz__radio__name">Комплект фильтров</div>
+                           </div>
+                           <div class="quiz__radio__item">
+                              <div class="quiz__radio__image">
+                                 <img src="images/quiz-new/step7-3.png">
+                              </div>
+                              <div class="quiz__radio__name">Бесплатное техническое обслуживание</div>
+                           </div>
+                        </div>
+                        <div class="quiz__bottom">
+                           <div class="quiz__prompt">
+                              <img src="images/quiz-new/prompt.svg">
+                              <span>Выберите вариант ответа и нажмите кнопку далее</span>
+                           </div>
+                           <div class="quiz__nav">
+                              <button class="quiz__button quiz__button_prev js-quiz-prev-step">
+                                 <span>Назад</span>
+                                 <img src="images/quiz-new/arrow.svg">
+                              </button>
+                              <button class="quiz__button quiz__button_next js-quiz-next-step js-quiz-set-gift">
+                                 <span>Далее</span>
+                                 <img src="images/quiz-new/arrow.svg">
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="quiz__step quiz__step_8" data-step="8">
+                     <div class="quiz__sidebar">
+                        <div class="quiz__sidebar__gift-title">Ваш подарок!</div>
+                        <img class="quiz__sidebar__gift-image js-gift-image" src="/images/quiz-new/step7-3.png">
+                        <div class="quiz__sidebar__gift-name js-gift-name">Бесплатное техническое обслуживание</div>
+                     </div>
+                     <div class="quiz__content">
+                        <img src="images/quiz-new/last-bg.png" class="quiz__bg">
+                        <div class="quiz__progress"> <span style="width: 100%;"></span>
+                           <div><b>Заберите подарок!</b></div>
+                        </div>
+                        <h2 class="quiz__title">Отлично!</h2>
+                        <h3 class="quiz__help"><img src="images/quiz-new/help.svg"><span><b>Оставьте контакты и
+                                 получите расчет стоимости</b></span></h3>
+                        <h3 class="quiz__subtitle">Главный инженер свяжется c Вами по телефону,<br> проконсультирует и
+                           <b>отправит расчет на</b> <span>WhatsApp</span>
+                        </h3>
+                        <div class="quiz__finish">
+                           <input required type="tel" name="quiz_phone" class="quiz__finish__phone"
+                              placeholder="Введите ваш номер ">
+                           <input class="quiz__button quiz__button_next quiz__finish__send" type="submit"
+                              value="ПОЛУЧИТЬ РАСЧЕТ">
+                        </div>
+                        <div class="quiz__policy">
+                           <input required checked="true" type="checkbox" id="quiz__policy__input">
+                           <label for="quiz__policy__input">Нажимая на кнопку вы соглашаетесь c условями<br> обработки
+                              персональных данных</label>
+                        </div>
+                        <div class="quiz__success"><b>Спасибо!</b> Ваша заявка отправлена!</div>
+                        <div class="quiz__gift">
+                           <div class="quiz__gift__title">Ваш подарок!</div>
+                           <img class="quiz__gift__image js-gift-image" src="images/quiz-new/step7-3.png">
+                           <div class="quiz__gift__name js-gift-name">Бесплатное техническое обслуживание</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </form>
+         </section>
+         <!--<div class="clearfix"></div>-->
+      </div>
+      <!--<div class="clearfix"></div>-->
+   </main>
+   <!-- Yandex.Metrika counter -->
+   <script type="text/javascript">
+      (function (m, e, t, r, i, k, a) {
+         m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+         m[i].l = 1 * new Date();
+         for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+         k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+      })
+         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+      ym(91485446, "init", {
+         clickmap: true,
+         trackLinks: true,
+         accurateTrackBounce: true,
+         webvisor: true
+      });
+   </script>
+   <noscript>
+      <div><img src="https://mc.yandex.ru/watch/91485446" style="position:absolute; left:-9999px;" alt="" /></div>
+   </noscript>
+   <!-- /Yandex.Metrika counter -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js?_v=20230123184138"></script>
+   <script src='js/jquery.ui.js?ver=1.0.0'></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+   <script src="js/jquery.ui.touch-punch.min.js"></script>
+   <script src="js/quiz-script.js?v=1.0.2"></script>
+</body>
+
+</html>
